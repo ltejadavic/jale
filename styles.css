@@ -1,0 +1,158 @@
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:"Montserrat";
+  font-weight: bolder;
+}
+p{
+  color: #8f8f8f;
+}
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 7% 15%;
+
+}
+.container-fluid.first{
+  background-image:url("fondo1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.phrase{
+  background-color:#00a87e;
+  margin-right:33%;
+  color: #00324e;
+  text-align: center;
+  opacity: 0.9;
+}
+.text-phrase{
+  text-align: left;
+  margin: 4% 4% 4% 4%;
+}
+.colored-section{
+  background-color: #00324e;
+  color: #00a87e;
+}
+.colored-section2{
+  background-color: #00a87e;
+  color: #00324e;
+}
+.white-section{
+    background-color: #fff;
+}
+.navbar{
+  padding-top: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: #00324e;
+}
+.logo-jale{
+  height: 60px;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #00a87e;
+}
+
+#title .container-fluid{
+  padding: 10% 3% 15% 7%;
+  text-align: left;
+}
+.top-img{
+  width: 80%;
+  position: absolute;
+  right: 20%;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.ico{
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+  color: #00324e;
+}
+
+.ico:hover{
+  color: #00324e;
+}
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+.feature-title{
+  font-size: 1.35rem;
+}
+.feature-box{
+  padding: 5%;
+}
+
+#testimonials{
+  background-color:#00324e;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+}
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  font-size: 1.5rem;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .top-img{
+    position: static;
+    transform: rotate(0);
+  }
+  .colored-section{
+    margin-top: 8%;
+  }
+}
