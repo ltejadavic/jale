@@ -9,6 +9,30 @@ h1,h2,h3,h4,h5,h6{
 p{
   color: #8f8f8f;
 }
+video{
+  width: 100%;
+  height: auto;
+}
+.container-video{
+  text-align: center;
+  position: relative;
+}
+.jale-vid{
+  position: relative;
+  z-index :1;
+}
+.over-video{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3%;
+  background-color: #59A984;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 2;
+}
+
+
 .big-heading{
   font-size: 3.5rem;
   line-height: 1.5;
@@ -29,9 +53,9 @@ p{
   background-attachment: fixed;
 }
 .phrase{
-  background-color:#00a87e;
+  background-color:#59A984;
   margin-right:33%;
-  color: #00324e;
+  color: #0e2d40;
   text-align: center;
   opacity: 0.9;
 }
@@ -40,12 +64,13 @@ p{
   margin: 4% 4% 4% 4%;
 }
 .colored-section{
-  background-color: #00324e;
-  color: #00a87e;
+  background-color: #0e2d40;
+  color: #59A984;
 }
 .colored-section2{
-  background-color: #00a87e;
-  color: #00324e;
+  background-color: #59A984;
+  color: #0e2d40;
+  position: relative;
 }
 .white-section{
     background-color: #fff;
@@ -54,7 +79,7 @@ p{
   padding-top: 0;
   padding-left: 1%;
   padding-right: 1%;
-  background-color: #00324e;
+  background-color: #0e2d40;
 }
 .logo-jale{
   height: 60px;
@@ -73,7 +98,7 @@ p{
   font-weight: bold;
 }
 .navbar-dark .navbar-nav .nav-link{
-  color: #00a87e;
+  color: #59A984;
 }
 
 #title .container-fluid{
@@ -91,11 +116,11 @@ p{
 .ico{
   font-size: 4.5rem;
   margin-bottom: 1rem;
-  color: #00324e;
+  color: #0e2d40;
 }
 
 .ico:hover{
-  color: #00324e;
+  color: #0e2d40;
 }
 
 #features{
@@ -110,7 +135,7 @@ p{
 }
 
 #testimonials{
-  background-color:#00324e;
+  background-color:#0e2d40;
 }
 .testimonial-image{
   width: 10%;
@@ -121,24 +146,7 @@ p{
   font-size: 3rem;
   line-height: 1.5;
 }
-#press{
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-.press-logo{
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-#pricing{
-  padding: 100px;
-}
-.pricing-text{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-.pricing-column{
-  padding: 3% 2%;
-}
+
 
 .social-icon{
   margin: 20px 10px;
@@ -152,7 +160,11 @@ p{
     position: static;
     transform: rotate(0);
   }
-  .colored-section{
-    margin-top: 8%;
+  .colored-section2{
+    position: static;
+  }
+  .over-video{
+    transform: translate(0);
+    position: static;
   }
 }
