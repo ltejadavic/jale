@@ -6,9 +6,7 @@ h1,h2,h3,h4,h5,h6{
   font-family:"Montserrat";
   font-weight: bolder;
 }
-p{
-  color: #8f8f8f;
-}
+
 video{
   width: 100%;
   height: auto;
@@ -97,8 +95,25 @@ video{
   font-family: Montserrat;
   font-weight: bold;
 }
+#link-r.link-registro{
+  color: #0e2d40;
+  position: absolute;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1.44%;
+  padding-bottom: 1.44%;
+  top:0;
+}
+.navbar-nav.ml-auto{
+  margin-right: 5.5%;
+}
+.link-registro{
+  background-color: #59A984;
+  color: #0e2d40;
+}
 .navbar-dark .navbar-nav .nav-link{
   color: #59A984;
+  font-weight: bolder;
 }
 
 #title .container-fluid{
@@ -152,7 +167,22 @@ video{
   margin: 20px 10px;
   font-size: 1.5rem;
 }
-@media (max-width: 1028px) {
+@media (max-width: 1879px) {
+  #link-r.link-registro{
+    color: #59A984;
+    position: static;
+    padding-top: 8.1%;
+  }
+  .link-registro{
+    background-color: #0e2d40;
+  }
+}
+@media (max-width: 990px) {
+  #link-r.link-registro{
+    padding: 0;
+  }
+}
+@media (max-width: 1080px) {
   #title{
     text-align: center;
   }
@@ -170,3 +200,139 @@ video{
 }
 
 /*nosotros*/
+.container-fluid.nosotros{
+  background-image: url(driver.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.quienes-somos{
+  color: #0e2d40;
+  background-color: #59A984;
+  padding: 4%;
+  opacity: 0.8;
+}
+.texto-about{
+  text-align: justify;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: #0e2d40;
+  opacity: 1;
+
+}
+
+/*Seguridad*/
+.container-fluid.seguridad{
+  text-align: left;
+  background-image: url(seguridad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.contenedor-seguridad{
+  color: #0e2d40;
+  background-color: #59A984;
+  padding: 4%;
+  opacity: 0.8;
+}
+.texto-seguridad{
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: #0e2d40;
+  opacity: 1;
+}
+.frase-seguridad{
+  margin-bottom: 6%;
+}
+
+.col-lg-6.seguridad-col{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.icono{
+  font-size: 6rem;
+  color: color: #0e2d40;
+}
+
+/*Ayuda*/
+.container-fluid.ayuda{
+  text-align: center;
+  background-image: url(help.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.ayuda-container{
+  margin-top: 15%;
+  margin-left: 25%;
+  color: #0e2d40;
+  padding: 4%;
+  opacity: 0.8;
+}
+.texto-ayuda{
+  text-align: justify;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #0e2d40;
+  opacity: 1;
+  margin-top: 15%;
+  margin-left: 65%;
+
+}
+.ico-h{
+  color: #0e2d40;
+  border-color: #0e2d40;
+
+}
+.ico-h:hover{
+  background-color: #0e2d40;
+  color: #59A984;
+}
+
+/*Iniciar*/
+
+.container-fluid.iniciar{
+  text-align: center;
+  background-image: url(Iniciar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.iniciar-container{
+  text-align: left;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 5%;
+  background-color: #fff;
+  opacity: 0.9;
+  color: #0e2d40;
+}
+/*Regístrate*/
+
+.container-fluid.registro{
+  text-align: center;
+  background-image: url(Iniciar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.registro-container{
+  text-align: left;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 5%;
+  background-color: #fff;
+  opacity: 0.9;
+  color: #0e2d40;
+}
