@@ -222,6 +222,11 @@ video{
   opacity: 1;
 
 }
+@media (max-width: 1080px) {
+  .quienes-somos{
+    margin-top: 10%;
+  }
+}
 
 /*Seguridad*/
 .container-fluid.seguridad{
@@ -257,6 +262,11 @@ video{
 .icono{
   font-size: 6rem;
   color: color: #0e2d40;
+}
+@media (max-width: 1080px) {
+  .contenedor-seguridad{
+    margin-top: 10%;
+  }
 }
 
 /*Ayuda*/
@@ -295,6 +305,16 @@ video{
   background-color: #0e2d40;
   color: #59A984;
 }
+@media (max-width: 1080px) {
+  .ayuda{
+    margin-top: 8%;
+  }
+  .ayuda-container{
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 /*Iniciar*/
 
@@ -316,6 +336,15 @@ video{
   opacity: 0.9;
   color: #0e2d40;
 }
+@media (max-width: 1080px) {
+
+  .iniciar-container{
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 30%;
+    margin-top: 20%;
+  }
+}
 /*Regístrate*/
 
 .container-fluid.registro{
@@ -335,4 +364,13 @@ video{
   background-color: #fff;
   opacity: 0.9;
   color: #0e2d40;
+}
+@media (max-width: 1080px) {
+
+  .registro-container{
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 30%;
+    margin-top: 20%;
+  }
 }
